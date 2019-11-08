@@ -495,6 +495,7 @@ footer {
     clear: both;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item.resource .caption {
@@ -609,6 +610,12 @@ footer {
     float: right;
     margin-left: $spacing-l;
     clear: right;
+}
+
+.center.file {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .left .item.resource > a:first-child,
